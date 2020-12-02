@@ -1,16 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NeoEmpresarios</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">    
-</head>
-<body>
-    <iframe src="https://co.oriflame.com/business-opportunity/become-consultant?sc_device=Blog&potentialSponsor=1041524"
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+        <nav id="header" class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class='container'>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/neoemprendedores.png" alt="Logo">NeoEmpresarios
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls=#navbar aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#empieza">Empieza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Accede</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main id="main">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/business_1.jpg" class="d-block w-100" alt="...">
+            <div class="overlay carousel-caption">
+                <h2>Aprende y gana dinero</h2>
+                <p>Gana regalias mientas te formas como un futuro emprendedor!</p>
+            </div>
+          </div>
+            <div class="carousel-item">
+                <img src="assets/images/business_2.jpg" class="d-block w-100" alt="...">
+                <div class="overlay carousel-caption">
+                    <h5>Crea tu franquicia virtual</h5>
+                    <p>En vez de emplearte, conviertete en socio de una multinacional!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/business_3.jpg" class="d-block w-100" alt="...">
+                <div class="overlay carousel-caption">
+                    <h5>Desde casa</h5>
+                    <p>Crea un negocio desde tu lugar favorito, [aqui iria algo relacionado con tiempo]</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/business_4.jpg" class="d-block w-100" alt="...">
+                <div class="overlay carousel-caption">
+                    <h5>Unete a los Neoempresarios</h5>
+                    <p>La tribu de emprendedores mas Cool [pegar un emoji]</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </main>
+    <!-- /Main -->
+
+    <!--Embedding-->
+
+    <!--/Embedding-->
+
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+        <h1 class="display-4">Unéte a los Neoempresarios!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Comienza Ahora!</a>
+    </div>
+    <!-- /Jumbotron-->
+
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-2 pb-lg-4 pt-2 pt-lg-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctenos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Poner las redes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+    
+    <!--
+        <iframe src="https://co.oriflame.com/business-opportunity/become-consultant?sc_device=Blog&potentialSponsor=1041524"
         scrolling="no" frameborder="0" width="450" height="1600"></iframe>
-</body>
+    Estas lineas son del formulario de Oriflame
+    -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+  </body>
 </html>
