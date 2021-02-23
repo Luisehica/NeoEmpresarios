@@ -1,9 +1,14 @@
+body {
+    margin: 0px;
+}
+
+
 #header img {
     width: 80px;
 }
 
 #main .carousel-inner img {
-    max-height: 90vh;
+    max-height: 80vh;
     object-fit: cover;
     filter: grayscale(50%)
 }
@@ -15,13 +20,17 @@
 #carousel .overlay {
     background-color: rgba(0, 0, 0, 0,5);
     color: white;
-    font-size: 50px;
+    font-size: 5vh;
 }
 
 #carousel .overlay .container,
 #carousel .overlay .row {
     height: 100%;
     align-items: center;
+}
+
+#embed_youtube{
+    
 }
 
 #place-time {
